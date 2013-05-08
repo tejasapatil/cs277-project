@@ -1,0 +1,420 @@
+      won
+someon	10005
+here	100430
+       chocol	10050
+and	1007469
+veri	100924
+    doesn	10134
+arriv	10144
+front	10191
+        shrimp	10218
+mean	10221
+        style	10228
+doe	10294
+    less	10319
+thank	10389
+stuff	10471
+just	105074
+includ	10512
+      fantast	10547
+isn	10577
+such	10592
+point	10619
+      car	10673
+time	106947
+watch	10709
+      salsa	10717
+leav	10762
+out	107732
+me	107787
+if	107852
+all	108067
+him	10817
+get	108339
+    especi	10841
+whole	10865
+sever	10959
+mai	10988
+fill	11015
+show	11075
+ye	11077
+chang	11151
+      fast	11169
+run	11172
+name	11181
+      deal	11184
+husband	11197
+done	11204
+must	11232
+    crowd	11355
+three	11362
+    impress	11374
+    grill	11382
+pick	11424
+hand	11437
+    music	11451
+final	11481
+return	11487
+go	115078
+door	11543
+    fish	11560
+    pork	11562
+    steak	11568
+dure	11572
+    waitress	11583
+    decor	11606
+    great	116360
+choic	11651
+red	11653
+bean	11676
+size	11778
+overal	11861
+appet	11871
+hard	11872
+light	11887
+stai	11905
+care	11909
+keep	11978
+least	12122
+    high	12129
+drive	12138
+fan	12243
+dog	12256
+green	12258
+without	12267
+    spici	12294
+option	12306
+part	12335
+almost	12340
+cours	12376
+    mexican	12384
+bring	12389
+tell	12418
+pai	12470
+far	12481
+through	12489
+left	12505
+line	12556
+local	12678
+egg	12682
+portion	12694
+water	12751
+chip	12784
+manag	12896
+everyon	12957
+    like	130012
+oh	13014
+dessert	13040
+    decent	13045
+patio	13085
+owner	13102
+dine	13148
+there	132413
+famili	13302
+els	13426
+own	13481
+soup	13623
+i	1364226
+cream	13705
+half	13709
+were	137994
+beef	13910
+wonder	13961
+coupl	14074
+each	14090
+town	14094
+outsid	14112
+potato	14138
+kid	14220
+scottsdal	14344
+food	145042
+told	14507
+      super	14526
+insid	14555
+    larg	14790
+plate	14802
+put	14816
+    disappoint	14827
+hous	14841
+howev	14884
+anyth	14886
+be	149584
+rice	14964
+quit	15142
+spot	15183
+ic	15206
+person	15215
+sushi	15222
+awai	15240
+    fun	15261
+full	15262
+let	15268
+the	1539976
+    qualiti	15423
+why	15472
+these	15562
+onc	15687
+mayb	15714
+those	15742
+so	157755
+    good	158086
+    week	15828
+    huge	15846
+probabl	15892
+gui	15898
+    cool	15905
+ar	159432
+at	160021
+decid	16045
+taco	16183
+excel	16202
+cook	16431
+    free	16473
+thought	16474
+ok	16525
+item	16705
+sit	16741
+had	167810
+close	16834
+same	16842
+found	16976
+kind	17111
+end	17133
+place	171485
+noth	17238
+stop	17281
+    offer	17282
+    worth	17342
+usual	17424
+should	17504
+roll	17584
+custom	17596
+    perfect	17677
+not	177064
+live	17765
+    expect	17837
+old	17975
+breakfast	18405
+atmospher	18614
+clean	18715
+coffe	18786
+actual	18807
+reason	18815
+start	18875
+took	18889
+    long	19061
+    meat	19259
+hi	19295
+    tasti	19307
+enough	19452
+bread	19482
+shop	19490
+differ	19766
+tri	19888
+    sweet	19953
+park	19980
+wine	20025
+call	20086
+server	20300
+t	203690
+wasn	20633
+open	20672
+home	20820
+both	20863
+    help	21015
+select	21062
+    awesom	21147
+we	212856
+have	215413
+anoth	21630
+    special	21799
+check	22046
+    big	22088
+    hot	22132
+room	22156
+phoenix	22352
+seat	22383
+where	22530
+    small	22587
+minut	22884
+thei	229824
+into	23017
+    recommend	23112
+last	23155
+walk	23362
+busi	23403
+store	23421
+    favorit	23435
+dinner	23464
+bad	23730
+mani	23838
+thi	239566
+d	23996
+everyth	24119
+though	24121
+everi	24285
+visit	24351
+next	24535
+beer	24612
+dish	24671
+said	24679
+top	24732
+but	249126
+with	249708
+    amaz	25027
+ever	25357
+most	25469
+serv	25519
+side	25528
+bit	25623
+her	25623
+someth	25910
+sinc	25915
+my	259155
+seem	26102
+feel	26158
+year	26175
+    happi	26201
+burger	26581
+you	267503
+    enjoi	26878
+ll	26885
+while	27056
+sure	27089
+still	27100
+befor	27149
+area	27219
+review	27253
+    definit	27447
+    meal	27478
+    experi	27563
+sandwich	27649
+around	27681
+us	27801
+down	28136
+    new	28491
+ani	28652
+find	28704
+now	28964
+that	294229
+    few	29629
+again	29761
+give	29859
+made	29978
+    fresh	30004
+sauc	30037
+came	30548
+see	30625
+    right	30640
+hour	30822 
+    locat	30933
+re	31032
+work	31037
+    delici	31058
+    flavor	31111
+star	31185
+on	313869
+fri	31425
+need	31441
+ask	31638
+how	31650
+two	31671
+lot	31754
+chees	31950
+who	32154
+off	32332
+    lunch	32522
+am	32807
+    friend	32860
+then	33071
+staff	33077
+    better	33620
+tabl	33629
+salad	33649
+did	34254
+in	344661
+wai	34671
+night	34756
+for	351157
+pizza	35134
+never	35237
+take	35332
+tast	35466
+    didn	35516
+    friendli	35545
+dai	35664
+could	37149
+sai	37343
+went	37510
+over	37737
+first	37978
+think	38986
+bar	40119
+eat	40223
+    pretti	40230
+peopl	40297
+chicken	40863
+know	41050
+    wait	41109
+much	41117
+thing	41304
+menu	41984
+after	42246
+drink	43573
+she	43992
+got	44000
+than	44421
+u	44729
+      best	45137
+alwai	45778
+wa	464924
+    price	47231
+of	476186
+them	47766
+come	48309
+want	48793
+he	48963
+    becaus	49145
+    well	49606
+    littl	50111
+ha	50345
+it	509021
+try	51008
+restaur	51139
+look	52052
+make	52371
+    too	52457
+do	53009
+    nice	53453
+even	54674
+m	54955
+don	55442
+by	55773
+    other	56316
+no	56621
+also	56852
+onli	57703
+ve	58154
+    more	61280
+will	62891
+your	64666
+been	66937
+which	67311
+an	69544
+to	698038
+what	70234
+back	70556
+    love	71134
+would	72115
+some	76019
+    servic	76088
+about	76323
+our	76469
+realli	78146
+when	80079
+up	80673
+from	82962
+order	86216
+can	88961
+their	89102
+or	90811
