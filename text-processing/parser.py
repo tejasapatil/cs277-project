@@ -1,3 +1,7 @@
+# This script will read the reduced trining data and 
+# spit the required fields. The date field will be relaced by the
+# relevant age from the reference time
+
 import fileinput
 from datetime import datetime
 
