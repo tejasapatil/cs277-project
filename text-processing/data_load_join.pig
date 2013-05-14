@@ -1,5 +1,8 @@
 sed -i 's/\\n/ /g' yelp_training_set_review.json 
 
+awk '{ print $2" "  $1}' part-r-00000  > part1
+sort -n part1 > part2
+
 business = load '/user/tejas/kaggle/training/reduced/business.json' using JsonLoader('business_id:chararray,open:chararray,category:chararray,review_count:chararray,stars:float');
 
 user = load '/user/tejas/kaggle/training/reduced/user.json' using JsonLoader('user_id:chararray,useful_votes:chararray,review_count:chararray,stars:float');
