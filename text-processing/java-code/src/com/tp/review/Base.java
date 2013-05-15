@@ -8,9 +8,9 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Scanner;
 
 import org.apache.log4j.Logger;
@@ -20,11 +20,12 @@ import org.tartarus.snowball.ext.PorterStemmer;
 public abstract class Base {
   protected final static Charset ENCODING = StandardCharsets.UTF_8;
   protected final static SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");  
+  static Logger logger = Logger.getLogger(Base.class);
   
   protected static JSONParser parser = new JSONParser();
   protected static PorterStemmer stemmer = new PorterStemmer();
   
-  protected HashSet<String> popularWords = new HashSet<String>();
+  protected ArrayList<String> popularWords = new ArrayList<String>();
   protected HashMap<String, String> bmapping = new HashMap<String, String>();
   protected HashMap<String, String> umapping = new HashMap<String, String>();
   protected HashMap<String, String> rmapping = new HashMap<String, String>();
@@ -35,8 +36,6 @@ public abstract class Base {
   protected String outfilename = null;
   protected String inputfilename = null;
   protected String freqWordsFilename = null;
- 
-  static Logger logger = Logger.getLogger(Base.class);
   
   protected static Date getStartDate(String date) {
     Date start = null;
@@ -53,32 +52,36 @@ public abstract class Base {
     
     logger.info("Processing input arguments");
     for(int i = 0 ; i < args.length;) {
+      
       if(args[i].compareTo("-bindex") == 0) {
         bindexFileName = args[++i];
         i++;
-      } if(args[i].compareTo("-uindex") == 0) {
+      } else if(args[i].compareTo("-uindex") == 0) {
         uindexFileName = args[++i];
         i++;
-      } if(args[i].compareTo("-rindex") == 0) {
+      } else if(args[i].compareTo("-rindex") == 0) {
         rindexFileName = args[++i];
         i++;
-      } if(args[i].compareTo("-freqwords") == 0) {
+      } else if(args[i].compareTo("-freqwords") == 0) {
         freqWordsFilename = args[++i];
         i++;
-      } if(args[i].compareTo("-input") == 0) {
+      } else if(args[i].compareTo("-input") == 0) {
         inputfilename = args[++i];
         i++;
-      } if(args[i].compareTo("-output") == 0) {
+      } else if(args[i].compareTo("-output") == 0) {
         outfilename = args[++i];
         i++;
+      } else {
+        logger.info("Invalid param : " + args[i]);
+        System.exit(-1);
       }
     }
   }
   
-  public void populateStopWords() {
+  public void populateFrequentWords() {
 
     try {
-      logger.info("Populating stop words");
+      logger.info("Populating freqeunt words from " + freqWordsFilename);
       Scanner scanner = new Scanner(Paths.get(freqWordsFilename), ENCODING.name());
       
       while (scanner.hasNextLine()) {
@@ -128,7 +131,7 @@ public abstract class Base {
     }
     
     parseArguments(args);
-    populateStopWords();
+    populateFrequentWords();
     populateMapping(bindexFileName, bmapping);
     populateMapping(uindexFileName, umapping);
     populateMapping(rindexFileName, rmapping);
