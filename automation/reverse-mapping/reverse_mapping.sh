@@ -5,7 +5,7 @@
 #
 # note: 
 # 1. u must have the review.index.1 file in the same folder where u keep this script.
-# 2.  <output_file> must not be already present..else it will get appended
+# 2. <output_file> must not be already present..else it will get appended
 
 start_time=`date +%s`
 rm $2

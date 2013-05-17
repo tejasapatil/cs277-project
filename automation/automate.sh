@@ -77,7 +77,7 @@ executeJoin() {
   # Time to run the pig script
   $PIG_HOME/bin/pig join_script.pig
 
-  rm -rf $2.joined.data.tmp
+  rm -rf $2.joined.data.txt
   hadoop dfs -get $1/joined_data/part-r-00000 $2.joined.data.txt
   rm join_script.pig
 }
