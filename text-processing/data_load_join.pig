@@ -3,6 +3,7 @@ sed -i 's/\\n/ /g' yelp_training_set_review.json
 awk '{ print $2" "  $1}' part-r-00000  > part1
 sort -n part1 > part2
 tail -1000 part2 > part3
+awk '{print $2}' part3 > part4
 
 
 business = load '/user/tejas/kaggle/training/reduced/business.json' using JsonLoader('business_id:chararray,open:chararray,category:chararray,review_count:chararray,stars:float');
